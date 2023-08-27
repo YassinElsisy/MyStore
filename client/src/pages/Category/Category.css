@@ -1,0 +1,44 @@
+.category {
+    padding: 30px 50px;
+    display: flex;
+}
+
+.category .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 50px;
+}
+
+.category .right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.category .filterItem {
+    margin-bottom: 30px;
+}
+
+.category .inputItem {
+    margin-bottom: 10px;
+}
+
+.catgeory label {
+    margin-left: 10px;
+}
+
+.category .left h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.categoryImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position:0 45%;
+    margin-bottom: 50px;
+}
